@@ -34,9 +34,6 @@ XXX Add Info about APIs
 
 ## Essential Core Components (OSMF Servers)
 
-### PostgreSQL/PostGIS
-
-
 ### Rails Port
 
 Maintainer: TomH
