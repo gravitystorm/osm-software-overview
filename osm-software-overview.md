@@ -36,109 +36,117 @@ XXX Add Info about APIs
 
 ### Rails Port
 
-Maintainer: TomH
-Depends on: Ruby on Rails
-Languages: Ruby
-Code hosting:
-Documentation URL:
-Status:
+* Maintainer: TomH
+* Depends on: Ruby on Rails
+* Languages: Ruby
+* Code hosting:
+* Documentation URL:
+* Status:
+* Repo: https://github.com/openstreetmap/openstreetmap-website
 
 ### Components for GPX upload/dump?
 
+* Importer Repo: https://git.openstreetmap.org/gpx-import.git
+* Exporter Repo: https://github.com/Zverik/gpxplanet-tools (perhaps?)
+
 ### cgimap
 
-Maintainer: Matt
-Languages: C++
-Depends on: Rails Port
+* Maintainer: Matt
+* Languages: C++
+* Depends on: Rails Port
+* Repo: https://github.com/zerebubuth/openstreetmap-cgimap
 
 ### Osmosis
 
-maintainer: Brett Henderson
+* maintainer: Brett Henderson
+* Repo: https://github.com/openstreetmap/osmosis
 
 ### OSM-Binary
 
-Maintainer: Scott, Jochen (sort of)
-Languages: C, C++, Java
-Status: stable, no major work is done, Jochen maintains C++ side, several people
+* Maintainer: Scott, Jochen (sort of)
+* Languages: C, C++, Java
+* Status: stable, no major work is done, Jochen maintains C++ side, several people
     have reported problems with the Java build
+* Repo: https://github.com/scrosby/OSM-binary
 
 ### planet-dump-ng
 
-Maintainer: Matt
+* Maintainer: Matt
+* Repo: https://github.com/zerebubuth/planet-dump-ng
 
 ### Backup
 
+* Repo: https://github.com/openstreetmap/chef/tree/master/cookbooks/backup
+
 ### Server Hardware/OS, Chef
 
-Sysadmin Team
+* Sysadmin Team
+* Repo: https://github.com/openstreetmap/chef
+* Repo: https://github.com/openstreetmap/operations
 
 ## Non-Essential Core Components (OSMF Servers)
 
 ### Rendering stack
 
-Depends on: osm2pgsql, renderd, mod_tile, dirty tile update, tile caching
+* Depends on: osm2pgsql, renderd, mod_tile, dirty tile update, tile caching
 
 ### Nominatim
 
-Maintainer: Sarah
-
-Depends on: osm2pgsql
+* Maintainer: Sarah
+* Depends on: osm2pgsql
 
 ### Mediawiki
 
-Extensions? (Harry Wood?, Firefishy)
+* Extensions? (Harry Wood?, Firefishy)
 
 ### dirty tile update
 
-Maintainer: Matt
+* Maintainer: Matt
 
 ### Tile Caching servers
 
-Maintainer: Sysadmin team
+* Maintainer: Sysadmin team
 
 ### renderd
 
-Maintainer: ?
+* Maintainer: ?
 
 ### mod_tile
 
-Maintainer: ?
+* Maintainer: ?
 
 ### osm2pgsql
 
 For rendering and Nominatim
 
-Maintainer: Paul Norman, Sarah
-Depends on: OSM-Binary
+* Maintainer: Paul Norman, Sarah
+* Depends on: OSM-Binary
 
 ### iD
 
 ### taginfo
 
-Maintainer: Jochen
-
-Depends on: Libosmium
-
+* Maintainer: Jochen
+* Depends on: Libosmium
 
 ### routing engines
 
-Maintainer: several
-
-    yournavigation
-    osrm
+* Maintainer: several
+  * yournavigation
+  * osrm
 
 
 ### Mailing list software
 
-Maintainer: sysadmin team
+* Maintainer: sysadmin team
 
 ### help.osm.org
 
-Maintainer: sysadmin team
+* Maintainer: sysadmin team
 
 ### CartoCSS Styles for main map
 
-repos: openstreetmap-carto
+* repos: openstreetmap-carto
 
 ## Other
 
@@ -146,10 +154,8 @@ repos: openstreetmap-carto
 
 ### OSMCoastline
 
-Maintainer: Jochen
-
-Depends on: Libosmium
-
+* Maintainer: Jochen
+* Depends on: Libosmium
 
 ### Forum Software
 
@@ -157,11 +163,11 @@ Maintainer:
 
 ### Tirex
 
-Maintainer: nobody
+* Maintainer: nobody
 
 ### Overpass
 
-Maintainer: Roland
+* Maintainer: Roland
 
 ### OWL
 
