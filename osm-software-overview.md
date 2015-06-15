@@ -32,7 +32,6 @@ XXX Add Info about APIs
     - Nominatim
     - XAPI
 
-
 ## Essential Core Components (OSMF Servers)
 
 ### PostgreSQL/PostGIS
@@ -55,6 +54,9 @@ Maintainer: Matt
 Languages: C++
 Depends on: Rails Port
 
+### Osmosis
+
+maintainer: Brett Henderson
 
 ### OSM-Binary
 
@@ -63,35 +65,17 @@ Languages: C, C++, Java
 Status: stable, no major work is done, Jochen maintains C++ side, several people
     have reported problems with the Java build
 
-### osm2pgsql
-
-For rendering and Nominatim
-
-Maintainer: Paul Norman, Sarah
-Depends on: OSM-Binary
-
-### renderd
-
-Maintainer: ?
-
-### mod_tile
-
-Maintainer: ?
-
 ### planet-dump-ng
 
 Maintainer: Matt
 
-### dirty tile update
+### Backup
 
-Maintainer: Matt
+### Server Hardware/OS, Chef
 
+Sysadmin Team
 
-
-### Tile Caching servers
-
-Maintainer: Sysadmin team
-
+## Non-Essential Core Components (OSMF Servers)
 
 ### Rendering stack
 
@@ -103,21 +87,32 @@ Maintainer: Sarah
 
 Depends on: osm2pgsql
 
-
 ### Mediawiki
 
 Extensions? (Harry Wood?, Firefishy)
 
+### dirty tile update
 
-### Backup
+Maintainer: Matt
 
+### Tile Caching servers
 
-### Server Hardware/OS, Chef
+Maintainer: Sysadmin team
 
-Sysadmin Team
+### renderd
 
+Maintainer: ?
 
-## Non-Essential Core Components (OSMF Servers)
+### mod_tile
+
+Maintainer: ?
+
+### osm2pgsql
+
+For rendering and Nominatim
+
+Maintainer: Paul Norman, Sarah
+Depends on: OSM-Binary
 
 ### iD
 
@@ -161,7 +156,7 @@ Depends on: Libosmium
 
 ### Forum Software
 
-Maintainer: 
+Maintainer:
 
 ### Tirex
 
@@ -176,15 +171,8 @@ Maintainer: Roland
 ### JOSM
 
 
-### Osmosis
-
-maintainer: Brett Henderson
-
-
 ### osmc?
 
 osmconvert, osmfilter
 
 ### imposm?
-
-
